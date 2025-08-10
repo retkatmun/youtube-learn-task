@@ -19,6 +19,7 @@ print(mix)
 '''
 
 #task3 set
+'''
 fruits = {'orange','banana','kiwi','apple','pineapple'}
 print(fruits)
 fruits.add('gwava')
@@ -26,4 +27,18 @@ print(fruits)
 fruits.remove('banana')
 print(fruits)
 print('apple' in fruits )
+'''
+#task4 set
+dels = {
+    "age": 20,
+    "name": "scholar",
+    "country": "nigeria"
+
+}
+dels["hubby"] = "coding"
+dels["age"] = 30
+print(dels)
+print(dels["name"])
+print(dels.keys())
+
 
