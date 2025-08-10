@@ -46,3 +46,7 @@ var2 = "good"
 
 normal = var1 + ' ' + var2
 print(normal)
+final = "{} {}".format(var1 , var2)
+print(final)
+print(f"{var1} {var2}")
+
