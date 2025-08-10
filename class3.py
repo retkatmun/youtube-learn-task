@@ -25,5 +25,6 @@ print(student)
 
 for key, value in student.items():
 	print(f"{key}: {value}")
-
+student.clear()
+print(student)
 	
