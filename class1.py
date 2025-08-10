@@ -29,7 +29,7 @@ print(count)
 '''
 
 #task4
-
+'''
 sentence = input("Enter a sentence")
 ask_replace =input("word to replace")
 replace_ask = input("relace word")
@@ -37,6 +37,12 @@ replace_ask = input("relace word")
 replace = sentence.replace(ask_replace, replace_ask)
 print(sentence)
 print(f"{ask_replace} {replace}")
+'''
 
 #task5
 
+var1 = "scholar"
+var2 = "good"
+
+normal = var1 + ' ' + var2
+print(normal)
